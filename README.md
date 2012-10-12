@@ -11,8 +11,8 @@ Classes
 Wrapper class for core operations against the CareerBuilder API.
 
 
-    $job = CBAPI.getJobDetails('J12345ABCDE');
-    $results_arr = CBAPI.getJobResults('sales','atlanta','',0);
+    $job = CBAPI::getJobDetails('J12345ABCDE');
+    $results_arr = CBAPI::getJobResults('sales','atlanta','',0);
 
 
 ### Job
